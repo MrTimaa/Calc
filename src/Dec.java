@@ -34,7 +34,7 @@ public class Dec extends SystemNum {
     }
     @Override
     public void calculationValues() {
-        long result = 0L;
+        long result = 0;
 
         if (operator.equals("/") && b == 0) {
             setResult("Деление на ноль невозможно");

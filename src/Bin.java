@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Bin extends SystemNum {
 
-    private final int a;
-    private final int b;
-    private final String operator;
+    private int a;
+    private int b;
+    private String operator;
     public Bin() {
         a = inputNum();
         operator = inputOper();

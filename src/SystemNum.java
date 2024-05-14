@@ -16,7 +16,7 @@ public abstract class SystemNum {
             if (operator.matches("[+\\-*/]")) {
                 break;
             } else {
-                System.out.println("Неверный ввод. Пожалуйста, введите один из следующих операторов: +, -, *, /");
+                System.out.println("Неверный ввод. Введите один из следующих операторов: +, -, *, /");
             }
         }
         return operator;
